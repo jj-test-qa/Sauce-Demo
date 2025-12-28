@@ -38,12 +38,6 @@ jobs:
         with:
           name: allure-report
           path: allure-report
-      - name: Upload Allure History
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-history
-          path: allure-report/history
-        if: always()
   deploy:
     needs: test
     runs-on: ubuntu-latest
