@@ -15,12 +15,12 @@ GitHub Actions – CI/CD execution
 GitHub Pages – Report hosting
 
 📁 Project Structure
-├── pages/              # Page Objects
-├── data/               # Test data (users, carts, SKUs)
-├── tests/              # Spec files
-├── playwright.config.ts
-├── package.json
-├── .github/workflows/  # CI pipeline
+pages/                 # Page Objects
+data/                  # Test data (users, carts, SKUs)
+tests/                 # Spec files
+playwright.config.ts
+package.json
+.github/workflows/     # CI pipeline
 
 🧱 Framework Design
 
