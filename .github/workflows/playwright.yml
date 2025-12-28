@@ -44,13 +44,22 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-
+      - name: Restore Allure history
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-history
+          path: allure-report/history
+        continue-on-error: true
       - name: Download Allure Report
         uses: actions/download-artifact@v4
         with:
           name: allure-report
           path: allure-report
-
+      - name: Upload Allure history
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-history
+          path: allure-report/history
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
