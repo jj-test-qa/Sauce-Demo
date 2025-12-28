@@ -1,3 +1,4 @@
+![Playwright Tests](https://github.com/jj-test-qa/Sauce-Demo/actions/workflows/playwright.yml/badge.svg)
 🧪 Sauce Demo – Playwright Automation Framework
 
 This repository contains an end-to-end test automation framework built using Playwright + TypeScript, following Page Object Model (POM) and CI/CD best practices.
