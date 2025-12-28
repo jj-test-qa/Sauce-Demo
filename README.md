@@ -1,3 +1,8 @@
+![Playwright Tests](https://github.com/jj-test-qa/Sauce-Demo/actions/workflows/playwright.yml/badge.svg)
+[![Allure Report](https://img.shields.io/badge/Allure-Report-blueviolet)](https://jj-test-qa.github.io/Sauce-Demo/)
+![Playwright](https://img.shields.io/badge/Playwright-E2E-green)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue)
+
 🧪 Sauce Demo – Playwright Automation Framework
 
 This repository contains an end-to-end test automation framework built using Playwright + TypeScript, following Page Object Model (POM) and CI/CD best practices.
@@ -15,12 +20,13 @@ GitHub Actions – CI/CD execution
 GitHub Pages – Report hosting
 
 📁 Project Structure
-├── pages/              # Page Objects
-├── data/               # Test data (users, carts, SKUs)
-├── tests/              # Spec files
-├── playwright.config.ts
-├── package.json
-├── .github/workflows/  # CI pipeline
+
+pages/            
+data/                                        
+tests/                        
+playwright.config.ts                      
+package.json                           
+.github/workflows/            
 
 🧱 Framework Design
 
