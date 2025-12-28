@@ -1,4 +1,7 @@
 ![Playwright Tests](https://github.com/jj-test-qa/Sauce-Demo/actions/workflows/playwright.yml/badge.svg)
+[![Allure Report](https://img.shields.io/badge/Allure-Report-blueviolet)](https://jj-test-qa.github.io/Sauce-Demo/)
+![Playwright](https://img.shields.io/badge/Playwright-E2E-green)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strict-blue)
 
 🧪 Sauce Demo – Playwright Automation Framework
 
