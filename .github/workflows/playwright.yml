@@ -60,6 +60,12 @@ jobs:
         with:
           name: allure-history
           path: allure-report/history
+      - name: Upload Allure history
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-history
+          path: allure-report/history
+        if: always()        
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
